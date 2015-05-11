@@ -13,7 +13,7 @@ import (
 
 func main() {
 	filename := flag.String("name", "README.md", "input monito file name")
-	cmd := flag.String("cmd ", "./family_start.sh", "input execute  file name")
+	cmd := flag.String("cmd", "./family_start.sh", "input execute  file name")
 	flag.Parse()
 	log.Printf("wait monti file:%s", *filename)
 	log.Printf("wait cmd  :%s", *cmd)
